@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ * - carousel_view_id: id of carousel view.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div{{ attributes }}>
+  {# Indicators #}
+  {{ carousel_indicator }}
+
+  {# Wrapper for slides #}
+  <div class="carousel-inner" role="listbox">
+    {% for row in rows %}
+      <div{{ row.attributes }}>
+        {{- row.content -}}
+      </div>
+    {% endfor %}
+  </div>
+
+  {# Controls #}
+  <a class="left carousel-control" href="#{{ carousel_view_id }}" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#{{ carousel_view_id }}" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

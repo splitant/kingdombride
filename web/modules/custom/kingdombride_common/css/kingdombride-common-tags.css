@@ -1,0 +1,19 @@
+.kb-bef-checkboxes {
+    margin: 15px 0 35px;
+}
+
+.kb-bef-checkboxes .label {
+    display: inline-block;
+    padding: 0.7em 1em;
+    font-size: 15px;
+    border-radius: 1.65em;
+    cursor: pointer;
+}
+
+.kb-bef-checkboxes .label:not(:last-child) {
+    margin-right: 10px;
+}
+
+.kb-bef-checkboxes .label .glyphicon {
+    margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+type: module
+name: 'Kingdombride common module'
+description: 'list of common functionalities for Kingdombride website'
+core_version_requirement: ^8 || ^9
+version: VERSION
+dependencies:
+  - drupal:image
+  - drupal:ds
+  - drupal:better_exposed_filters

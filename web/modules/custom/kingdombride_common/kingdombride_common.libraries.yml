@@ -1,0 +1,16 @@
+kb-bef-tags:
+  css:
+    component:
+      css/kingdombride-common-tags.css: {}
+  js:
+    js/kingdombride-common-tags.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+
+kb-text-default:
+  css:
+    component:
+      css/kingdombride-text-default.css: {}

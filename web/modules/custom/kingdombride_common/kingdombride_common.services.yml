@@ -1,0 +1,4 @@
+services:
+  kingdombride_common.utils:
+    class: Drupal\kingdombride_common\KingdombrideCommonManager
+    arguments: ['@request_stack']

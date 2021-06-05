@@ -1,0 +1,42 @@
+.kb-rich-text-style-1 {
+
+}
+
+.kb-rich-text-style-1 .h4,
+.kb-rich-text-style-1 .h5,
+.kb-rich-text-style-1 .h6,
+.kb-rich-text-style-1 h4,
+.kb-rich-text-style-1 h5,
+.kb-rich-text-style-1 h6 {
+    margin-top: 25px;
+}
+
+.kb-rich-text-style-1 > * {
+    line-height: 1.6;
+}
+
+.kb-rich-text-style-1 ul,
+.kb-rich-text-style-1 ol {
+    padding-left: 1.8em;
+}
+
+.kb-rich-text-style-2 {
+
+}
+
+.kb-rich-text-style-2 .h4,
+.kb-rich-text-style-2 .h5,
+.kb-rich-text-style-2 .h6,
+.kb-rich-text-style-2 h4,
+.kb-rich-text-style-2 h5,
+.kb-rich-text-style-2 h6 {
+    margin-top: 25px;
+}
+
+.kb-rich-text-style-2 > * {
+    line-height: 1.6;
+}
+
+/*
+TODO: continue the CSS style 
+*/

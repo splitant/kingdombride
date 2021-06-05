@@ -1,0 +1,226 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-header {
+    display: block;
+    width: 100%;
+}
+
+.navbar-header .region-navigation {
+    display: block;
+}
+
+.navbar-header .region-navigation .wrapper-logo {
+    text-align: center;
+}
+
+.navbar-header .region-navigation .logo.navbar-btn {
+    display: inline-block;
+}
+
+#block-kingdombride-main-menu {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+#block-kingdombride-main-menu .navbar-nav {
+    display: inline-block;
+    float: none;
+} 
+
+#block-kingdombride-main-menu .navbar-nav li {
+    text-transform: uppercase;
+} 
+
+.region-content .block {
+    margin: 50px auto;
+}
+
+.region-content .block .block-title {
+    text-align: center;
+}
+
+.region-content .block .block-title::after {
+    content: ' ';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #555150;
+    margin: 20px auto;
+}
+
+.region-content .block-views .more-link {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.region-content .block-views .more-link a {
+    display: inline-block;
+    padding: 10px 18px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 21px;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.region-content .block-views .more-link a:hover {
+    background-color: #31b0d5;
+    border-color: #269abc;
+    text-decoration: none;
+}
+
+.kb-main-title {
+    text-align: center;
+}
+
+.kb-full-content .field {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.kingdombride-entity-reference-label {
+    text-align: center;
+}
+
+.kingdombride-entity-reference-label .field--item {
+    display: inline-block;
+}
+
+.kingdombride-entity-reference-label .field--item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.kingdombride-entity-reference-label .label {
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 0;
+    padding: .3em .6em .4em;
+}
+
+.kb-card-type-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.kb-card-type-1:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 1);
+}
+
+.kb-card-type-1 .kingdombride-image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.kb-card-type-1 .kb-main-title {
+    height: 100px;
+    display: table;
+    width: 100%;
+}
+
+.kb-card-type-1 .kb-main-title > *{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.kb-card-type-1 .kingdombride-image .img-responsive {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1); /* W3C */
+    -webkit-transform: scale(1); /* Safari & Chrome */
+    -moz-transform: scale(1); /* Firefox */
+    -ms-transform: scale(1); /* Internet Explorer */
+    -o-transform: scale(1); /* Opera */
+}
+
+.kb-card-type-1:hover .kingdombride-image .img-responsive {
+    transform: scale(1.3); /* W3C */
+    -webkit-transform: scale(1.3); /* Safari & Chrome */
+    -moz-transform: scale(1.3); /* Firefox */
+    -ms-transform: scale(1.3); /* Internet Explorer */
+    -o-transform: scale(1.3); /* Opera */
+}
+
+.kb-card-type-1 .caption .field {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kb-card-type-1 .caption .kingdombride-entity-reference-label {
+    text-align: left;
+}
+
+.kb-card-type-1 .caption .kingdombride-entity-reference-label .field--item .label{
+    font-size: 12px;
+    border-radius: 20px;
+    padding: .3em .6em .4em;
+}
+
+.kb-card-type-1 .kingdombride-entity-reference-label .field--item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.kingdombride-carousel .carousel-caption {
+    text-shadow: 0 1px 2px rgba(0,0,0,.9);
+}
+
+.kingdombride-carousel .carousel-caption .kb-main-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.view-display-id-page_contextual_filter .view-content {
+    margin-top: 50px;
+}
+
+.view-display-id-page_exposed_filter .views-exposed-form legend {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.block-social-media-links-block {
+    display: table;
+    margin: auto;
+}
+
+.block-social-media-links-block > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block-social-media-links-block .social-media-links--platforms {
+    margin-bottom: 0;
+}
+
+.block-social-media-links-block .social-media-links--platforms li {
+    margin: 0 30px;
+}
+
+.multiple-element.form-group {
+    margin-bottom: 0;
+} 
+
+@media all and (max-width: 767px) {
+    .kingdombride-carousel .carousel-caption .kb-main-title {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+}

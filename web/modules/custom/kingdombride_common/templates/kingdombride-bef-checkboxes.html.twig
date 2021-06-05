@@ -1,0 +1,29 @@
+{#
+  Themes Views' default multi-select element as a set of checkboxes.
+
+  Available variables:
+    - wrapper_attributes: attributes for the wrapper element.
+    - element: The collection of checkboxes.
+    - children: An array of keys for the children of element.
+    - tags: render array of tags to UI.
+    - depth: If is_nested is TRUE, this holds an array in the form of
+      child_id => nesting_level which defines the depth a given element should
+      appear in the nested list.
+#}
+{% set classes = [
+  'form-checkboxes',
+  show_select_all_none ? 'bef-select-all-none',
+  display_inline ? 'form--inline',
+  'hidden'
+] %}
+
+<div{{ tags_attributes }}>
+  {{ tags }}
+</div>
+
+<div{{ wrapper_attributes.addClass(classes) }}>
+  {% for child in children %}
+    {% set item = attribute(element, child) %}
+    {{ item }}
+  {% endfor %}
+</div>
